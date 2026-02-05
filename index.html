@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crypto AI Analyzer</title>
+<style>
+body {
+  background:#000;
+  color:#fff;
+  font-family:Arial;
+  padding:20px;
+}
+.card {
+  background:#1e1e1e;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:15px;
+}
+.sell { color:red; }
+.buy { color:lime; }
+.hold { color:gray; }
+button {
+  width:100%;
+  padding:15px;
+  background:#333;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-size:18px;
+}
+</style>
+</head>
+<body>
+
+<h2>Crypto AI Analyzer</h2>
+<div id="data"></div>
+<button onclick="load()">Fetch & Analyze</button>
+
+<script src="script.js"></script>
+</body>
+</html>
